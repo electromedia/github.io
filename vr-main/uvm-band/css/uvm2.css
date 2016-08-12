@@ -1,0 +1,41 @@
+
+body {
+    background-color:black;
+    color:ghostwhite;
+}
+a{
+    color:lightgray;
+}
+a:hover{
+    color:ghostwhite;
+}
+.m-a-0 {
+    margin: 0 !important;
+}
+.display-4 {
+    font-weight: 100;
+}
+.jumbotron {
+    background: ghostwhite url("../img/uvm_outline1.jpg") top left no-repeat;
+    background-size:cover;
+    position: fixed;
+    height:100%;
+    width:100%;
+
+}
+.call2action {
+    position: absolute;
+    height: auto;
+    width:auto;
+    bottom: 50px;
+    left:10%;
+    padding: 20px;
+}
+.img-c2a {
+    width: 150px;
+}
+.container {
+    min-height: 480px;
+
+}
+
