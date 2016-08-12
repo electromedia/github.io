@@ -3,6 +3,12 @@ body {
     background-color:black;
     color:ghostwhite;
 }
+a{
+    color:lightgray;
+}
+a:hover{
+    color:ghostwhite;
+}
 .m-a-0 {
     margin: 0 !important;
 }
