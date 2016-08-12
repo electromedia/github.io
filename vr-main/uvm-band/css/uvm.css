@@ -16,7 +16,7 @@ a:hover{
     font-weight: 100;
 }
 .jumbotron {
-    background: url(".//img/UVM-512-8web.jpg") top left no-repeat;
+    background: url("../img/UVM-512-9web.jpg") top left no-repeat;
     background-size:cover;
     position: fixed;
     height:100vh;
