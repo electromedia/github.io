@@ -34,4 +34,8 @@ a:hover{
 .img-c2a {
     width: 150px;
 }
+.container {
+    min-height: 480px;
+
+}
 
