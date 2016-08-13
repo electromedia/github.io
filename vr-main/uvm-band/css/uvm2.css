@@ -64,17 +64,17 @@ a:hover{
 }
 
 .navbar {
-    background-color:rgba(0,0,0, 0.7);
+    background-color:rgba(0,0,0, 0.9);
 }
 .navbar-toggler {
-    color:crimson;
+    color:red;
 }
 .navbar-brand {
 display:none;
 }
-@media screen and (min-width: 544px) {
+@media screen and (min-width: 480px) {
     .navbar-brand {
         display:flex;
-        color:crimson;
+        color:red;
     }
 }
