@@ -1,41 +1,80 @@
 
 body {
-    background-color:black;
-    color:ghostwhite;
+    background: black url("../img/bg-blur.jpg") top left no-repeat;
+
+    background-size:cover;
+    background-attachment:fixed;
+
+    height:100vh;
+    width:100%;
+    z-index: -1;
 }
 a{
-    color:lightgray;
+    color:dimgray;
 }
 a:hover{
-    color:ghostwhite;
+    color:gray;
 }
 .m-a-0 {
     margin: 0 !important;
 }
 .display-4 {
-    font-weight: 100;
+    font-weight:100;
 }
 .jumbotron {
-    background: ghostwhite url("../img/uvm_outline1.jpg") top left no-repeat;
+    background: ghostwhite url("../img/1080.jpg") top left no-repeat;
     background-size:cover;
-    position: fixed;
-    height:100%;
+    position:fixed;
+    height:100vh;
     width:100%;
+    z-index: -1;
 
-}
-.call2action {
-    position: absolute;
-    height: auto;
-    width:auto;
-    bottom: 50px;
-    left:10%;
-    padding: 20px;
-}
-.img-c2a {
-    width: 150px;
 }
 .container {
-    min-height: 480px;
+    position:relative;
+    height:auto;
+    width:auto;
+    top:60px;
+    padding:20px;
+}
+@media screen and (min-width: 544px) {
+.container {
+    position:absolute;
+    min-height:450px;
+    height:100vh;
+    width:800px;
+    top:40;
+    right:30px;
+
+    }
+}
+.content {
+    color:crimson;
+    background-color:rgba(1,1,1, 0.9);
+    display:flex;
+    padding:20px;
+    margin-bottom:100px;
 
 }
+.img-c2a {
+    width:150px;
+}
+.card {
+    background-color:black;
+}
 
+.navbar {
+    background-color:rgba(0,0,0, 0.7);
+}
+.navbar-toggler {
+    color:crimson;
+}
+.navbar-brand {
+display:none;
+}
+@media screen and (min-width: 544px) {
+    .navbar-brand {
+        display:flex;
+        color:crimson;
+    }
+}
